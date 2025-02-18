@@ -9,9 +9,10 @@ I was responsible for writing the **business logic** for both the **Kafka produc
 - **Live visualization of the data**
 
 To meet these needs, I proposed a **data engineering solution** that:
-✔ Utilized **Kafka for real-time data streaming**\
-✔ Stored live data in **InfluxDB** for **real-time Grafana visualization**\
-✔ Stored historical results in **PostgreSQL** for analytical processing
+
+- Utilized **Kafka for real-time data streaming**\
+- Stored live data in **InfluxDB** for **real-time Grafana visualization**\
+- Stored historical results in **PostgreSQL** for analytical processing
 
 ---
 
