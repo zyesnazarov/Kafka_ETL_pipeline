@@ -18,7 +18,7 @@ influx_client = InfluxDBClient(url=INFLUX_URL, token=INFLUX_TOKEN, org=INFLUX_OR
 write_api = influx_client.write_api(write_options=SYNCHRONOUS)
 
 #Initializign a connection to Postsgresql
-conn = psycopg2.connect("dbname=postgres user=postgres password=73501505 host=localhost")
+conn = psycopg2.connect("dbname=postgres user=postgres password=TBD host=localhost")
 cursor = conn.cursor()
 
 def compute_kpis(df):
