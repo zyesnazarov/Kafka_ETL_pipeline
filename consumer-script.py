@@ -9,7 +9,7 @@ import numpy as np
 from datetime import datetime, timezone
 
 INFLUX_URL = "http://localhost:8086"
-INFLUX_TOKEN = "mY-liSk3QlBMueixQy6ypv4ZNa2dGG23OTlYS09vL6-A9z45weJfYo3wX4XISK_FWcjcD6sycqPnL72vqlmsJw=="
+INFLUX_TOKEN = "TBD"
 INFLUX_ORG = "personal"
 INFLUX_BUCKET = "crypto-data"
 
