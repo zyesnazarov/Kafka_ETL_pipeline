@@ -16,7 +16,7 @@ To meet these needs, I proposed a **data engineering solution** that:
 
 ---
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 ### 1. Prerequisites
 
