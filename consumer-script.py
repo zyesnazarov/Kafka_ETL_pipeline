@@ -73,6 +73,7 @@ for message in consumer:
     latest_kpis = compute_kpis(df)
     store_in_postgres(symbol, timestamp, latest_kpis)
 
+    # connection via Point to InfluxDB
     point = Point("crypto_prices") \
         .tag("symbol", data["symbol"]) \
         .field("open", float(data["open"])) \
